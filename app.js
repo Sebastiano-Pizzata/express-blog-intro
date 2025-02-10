@@ -57,7 +57,7 @@ app.get("/api/bacheca", (req, res) => {
         },
     ]
 
-    res.send(bacheca)
+    res.json(bacheca)
 })
 
 app.listen(port, () => {
