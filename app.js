@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
     res.send("Server del mio Blog")
 })
 
-app.get("/api/post", (req, res) => {
+app.get("/api/bacheca", (req, res) => {
     const bacheca = [
         {
             titolo: "Ciambellone",
